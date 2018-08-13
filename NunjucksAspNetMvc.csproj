@@ -249,7 +249,10 @@
     <Compile Include="Services\NunjucksService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\templates\button.njk" />
+    <Content Include="Content\templates\extend-me.njk" />
     <Content Include="Node\renderNunjucks.js" />
+    <Content Include="package.json" />
     <Content Include="Views\Home\Nunjucks.cshtml" />
     <Content Include="Views\Home\NunjucksSpeedTest.cshtml" />
     <Content Include="Views\Web.config" />

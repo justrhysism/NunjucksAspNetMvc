@@ -1,7 +1,9 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunjucksAspNetMvc", "NunjucksAspNetMvc.csproj", "{BA03FC33-1372-4562-9BE0-5FC5788E3116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NunjucksServices", "NunjucksServices\NunjucksServices.csproj", "{C0FE2405-680C-4272-AE6C-0A2F8F555919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +15,9 @@ Global
 		{BA03FC33-1372-4562-9BE0-5FC5788E3116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA03FC33-1372-4562-9BE0-5FC5788E3116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA03FC33-1372-4562-9BE0-5FC5788E3116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FE2405-680C-4272-AE6C-0A2F8F555919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FE2405-680C-4272-AE6C-0A2F8F555919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FE2405-680C-4272-AE6C-0A2F8F555919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FE2405-680C-4272-AE6C-0A2F8F555919}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

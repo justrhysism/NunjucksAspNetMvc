@@ -43,8 +43,8 @@ namespace NunjucksAspNetMvc.Controllers
 			
 			// Get Nunjucks
 			var result = _nunjucksService.RenderSync(
-				"<p>Time: {{time}} <i>(Templated by Nunjucks)</i></p>", 
-				new { Time = DateTime.Now.ToShortTimeString() }
+				"./Content/templates/button.njk", 
+				new { Type = "button", Label = "Button" }
 			);
 			ViewData["Nunjucks"] = result;
 			
