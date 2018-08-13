@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.Web;
+using System.Web.Hosting;
 using Microsoft.AspNetCore.NodeServices;
 using NunjucksAspNetMvc.Helpers;
 
@@ -16,8 +18,14 @@ namespace NunjucksAspNetMvc.Services
 
 		public async Task<string> Render(string template, object data)
 		{
+		    var scriptPath = HostingEnvironment.MapPath("~/Node/renderNunjucks");
+		    var templateDirectory = HostingEnvironment.MapPath("~/Content/templates");
+
+
 			var result = await _nodeServices.InvokeAsync<string>(
-				"./Node/renderNunjucks", template, 
+				scriptPath, 
+				template, 
+				templateDirectory,
 				data
 			);
 			
